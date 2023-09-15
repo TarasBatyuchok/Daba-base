@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <title>Ошибка :: Панель управления
+            хостингом sprinthost</title>
+        <script src="/js/vuedist/js/chunk-vendors.js?1694689968408"></script>
+        <script src="/js/vuedist/js/chunk-common.js?1694689968408"></script>
+        <script src="/js/vuedist/js/mainApp.js?1694689968408"></script>
+            <meta property="og:title" content="" />
+    <meta property="og:description" content="Удобный хостинг с бесподобной техподдержкой. Домены от 149 ₽, SSL-сертификаты и антивирус бесплатно." />
+    <meta property="og:image" content="https://cp.sprinthost.ru/img/shares/sph_1200x630.png">
+    <meta property="og:url" content="https://cp.sprinthost.ru" />
+    <meta property="og:image" content="https://cp.sprinthost.ru/img/shares/sph_90.png">
+
+<link href="/lib/fontawesome/css/font-awesome.css" rel="stylesheet"/>
+
+<link href="/lib/sweetalert/dist/sweetalert.css" rel="stylesheet"/>
+<link href="/lib/toastr/toastr.min.css" rel="stylesheet"/>
+
+<link href="/js/vuedist/css/chunk-vendors.css?1694761561" rel="stylesheet"/>
+<link href="/js/vuedist/css/chunk-common.css?1694761561" rel="stylesheet"/>
+<link href="/js/vuedist/css/mainApp.css?1694761561" rel="stylesheet"/>
+<link href="/css/dashboard.min.css?1694761561" rel="stylesheet"/>
+
+<link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
+
+<link rel="icon" href="/favicons/sprinthost/favicon.ico?1694689968408" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicons/sprinthost/favicon.ico?1694689968408" type="image/x-icon" />
+
+<script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/lib/jquery-ui/ui/minified/jquery-ui.custom.min.js"></script>
+<script type="text/javascript" src="/lib/yepnope/dist/yepnope-2.0.0.js"></script>
+<script type="text/javascript" src="/lib/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="/lib/jquery.cookie/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="/lib/parsleyjs/dist/parsley.min.js"></script>
+<script type="text/javascript" src="/lib/parsleyjs/dist/i18n/ru.js"></script>
+
+<script type="text/javascript" src="/js/libs.min.js?1694689968408"></script>
+<script type="text/javascript" src="/js/components.min.js?1694689968408"></script>
+
+<script src="/js/dashboard/tabsync.js"></script>
+<script type="text/javascript" src="/js/dashboard/long_task.js?1694689968408"></script>
+
+    <script type="text/javascript" src="/js/dashboard.min.js?1694689968408"></script>
+
+
+<script type="text/javascript" src="/js/dashboard/account_access_widget.js?1694689968408"></script>
+
+    <!-- GoogleAnalytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-5556760-8', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- /GoogleAnalytics -->
+    </head>
+    <body id="body">
+                <script>window.update_usage = 1;
+        </script>
+                <script type="application/json" id="initial-side-bar">
+          {"sections":[{"name":"databases_cards","id":"menu-section-databases_cards","title":"","icon":"databases_cards","type":"item","target":null,"active":null},{"name":"file_manager","id":"menu-section-file_manager","title":"","icon":"filemanager_icon","type":"item","target":null,"active":null},{"name":"partners_new","id":"menu-section-partners_new","title":"","icon":"partner_icon","type":"item","target":null,"active":null}],"items":[{"name":"","section":"databases_cards","id":"menu-item-","title":"\u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445","link":"\/customer\/databases\/index","num":"","freehosting":"","target":null,"label":null,"description":""},{"name":"","section":"file_manager","id":"menu-item-","title":"\u0424\u0430\u0439\u043b\u043e\u0432\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u0435\u0440","link":"\/customer\/files\/manager","num":"","freehosting":"","target":null,"label":null,"description":""},{"name":"","section":"partners_new","id":"menu-item-","title":"\u0421\u0442\u0430\u0442\u044c \u043f\u0430\u0440\u0442\u043d\u0451\u0440\u043e\u043c","link":"\/customer\/wm-new\/index","num":"","freehosting":"","target":null,"label":null,"description":""}]}
+        </script>
+        <script type="application/json" id="initial-page-side-bar">
+          {"sections":[{"name":"account","id":"menu-section-account","title":"\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430","icon":"account_icon","type":"section","target":null,"active":null},{"name":"profile","id":"menu-section-profile","title":"\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430","icon":"account_icon","type":"section","target":null,"active":null},{"name":"security","id":"menu-section-security","title":"\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c","icon":"account_icon","type":"section","target":null,"active":null},{"name":"personal_data","id":"menu-section-personal_data","title":"\u041f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435","icon":"account_icon","type":"section","target":null,"active":null},{"name":"finances","id":"menu-section-finances","title":"\u0423\u0441\u043b\u0443\u0433\u0438 \u0438 \u0444\u0438\u043d\u0430\u043d\u0441\u044b","icon":"finance_icon","type":"section","target":null,"active":null}],"items":[{"name":"general_settings","section":"account","id":"menu-item-general_settings","title":"\u041e\u0431\u0449\u0438\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438","link":"\/customer\/account\/general-settings","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"reissue_account","section":"account","id":"menu-item-reissue_account","title":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430","link":"\/customer\/account\/reissue","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"notifications","section":"account","id":"menu-item-notifications","title":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","link":"\/notifications\/index","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"account_access_list","section":"account","id":"menu-item-account_access_list","title":"\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","link":"\/customer\/account-access\/list","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"account_auth_access","section":"account","id":"menu-item-account_auth_access","title":"\u0410\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f","link":"\/security\/auth-access","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"log_operation","section":"account","id":"menu-item-log_operation","title":"\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439","link":"\/security\/log-operation","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"login_history","section":"account","id":"menu-item-login_history","title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0441\u0435\u0430\u043d\u0441\u044b","link":"\/security\/login-history","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"general_settings","section":"profile","id":"menu-item-general_settings","title":"\u041e\u0431\u0449\u0438\u0435 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438","link":"\/customer\/account\/general-settings","num":"","freehosting":"","target":null,"label":null,"description":"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e\u0431 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0435, \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u044f \u0447\u0435\u0440\u0435\u0437 \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0441\u0435\u0442\u0438, \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u043e\u043f\u044b\u0442\u043d\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f. ","cust_type":""},{"name":"notifications","section":"profile","id":"menu-item-notifications","title":"\u0423\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f","link":"\/notifications\/index","num":"","freehosting":"","target":null,"label":null,"description":"\u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f \u043f\u043e \u0421\u041c\u0421 \u0438 \u043f\u043e\u0447\u0442\u0435.","cust_type":""},{"name":"telegram","section":"profile","id":"menu-item-telegram","title":"\u0423\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u0447\u0435\u0440\u0435\u0437 \u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c","link":"\/customer\/account\/telegram","num":"","freehosting":"","target":null,"label":null,"description":"\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0430\u0439\u0442\u0435 \u0431\u043e\u0442\u0430 \u0432 \u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c \u0438 \u0431\u0443\u0434\u044c\u0442\u0435 \u0443\u0432\u0435\u0440\u0435\u043d\u044b, \u0447\u0442\u043e \u043d\u0435 \u043f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0432\u0430\u0436\u043d\u0443\u044e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u043e \u0432\u0430\u0448\u0435\u043c \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0435.","cust_type":""},{"name":"freeze","section":"profile","id":"menu-item-freeze","title":"\u0417\u0430\u043c\u043e\u0440\u043e\u0437\u043a\u0430 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430","link":"\/customer\/freeze\/index","num":"","freehosting":"","target":null,"label":null,"description":"\u0412\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0440\u0430\u0431\u043e\u0442\u044b \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430 \u0445\u043e\u0441\u0442\u0438\u043d\u0433\u0430 \u0441 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c \u0432\u0441\u0435\u0445 \u043d\u0430\u0441\u0442\u0440\u043e\u0435\u043a \u0441\u0430\u0439\u0442\u043e\u0432 \u0438 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432.","cust_type":""},{"name":"account_access_list","section":"profile","id":"menu-item-account_access_list","title":"\u0421\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0435 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u044b","link":"\/customer\/account-access\/list","num":"","freehosting":"","target":null,"label":null,"description":"\u041f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043f\u043e\u043b\u043d\u044b\u0439 \u0438\u043b\u0438 \u0447\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a\u00a0\u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0443 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430\u043c\u0438.","cust_type":""},{"name":"account_auth_access","section":"security","id":"menu-item-account_auth_access","title":"\u0410\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f","link":"\/security\/auth-access","num":"","freehosting":"","target":null,"label":null,"description":"\u041f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0430\u0443\u0442\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044e \u043f\u043e\u00a0\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044e, email \u0438\u043b\u0438 \u0421\u041c\u0421. \u041d\u0430\u0441\u0442\u0440\u043e\u0438\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443 IP-\u0430\u0434\u0440\u0435\u0441\u0430.","cust_type":""},{"name":"login_history","section":"security","id":"menu-item-login_history","title":"\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435 \u0441\u0435\u0430\u043d\u0441\u044b","link":"\/security\/login-history","num":"","freehosting":"","target":null,"label":null,"description":"\u0421\u043f\u0438\u0441\u043e\u043a \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432 \u0438\u00a0\u043f\u043e\u043f\u044b\u0442\u043e\u043a \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u0432\u00a0\u0432\u0430\u0448\u00a0\u0430\u043a\u043a\u0430\u0443\u043d\u0442.","cust_type":""},{"name":"log_operation","section":"security","id":"menu-item-log_operation","title":"\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439","link":"\/security\/log-operation","num":"","freehosting":"","target":null,"label":null,"description":"\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u044e \u0432\u0441\u0435\u0445\u00a0\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439 \u0432\u00a0\u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0435.","cust_type":""},{"name":"account_verify","section":"personal_data","id":"menu-item-account_verify","title":"\u0412\u0435\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0434\u0430\u043d\u043d\u044b\u0445","link":"\/customer\/account\/verify","num":"","freehosting":"","target":null,"label":null,"description":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u0434\u043b\u044f\u00a0\u043f\u043e\u0432\u044b\u0448\u0435\u043d\u0438\u044f \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430.","cust_type":""},{"name":"reissue_account","section":"personal_data","id":"menu-item-reissue_account","title":"\u0421\u043c\u0435\u043d\u0438\u0442\u044c \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430","link":"\/customer\/account\/reissue","num":"","freehosting":"","target":null,"label":null,"description":"\u041f\u0435\u0440\u0435\u043e\u0444\u043e\u0440\u043c\u0438\u0442\u044c \u0430\u043a\u043a\u0430\u0443\u043d\u0442 \u043d\u0430\u00a0\u043d\u043e\u0432\u043e\u0433\u043e \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430.","cust_type":""},{"name":"statements","section":"finances","id":"menu-item-statements","title":"\u041f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0439 \u0431\u0430\u043b\u0430\u043d\u0441","link":"\/statm\/list","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""},{"name":"my_package","section":"finances","id":"menu-item-my_package","title":"\u041c\u043e\u0439 \u0442\u0430\u0440\u0438\u0444","link":"\/customer\/load\/index","num":"","freehosting":"n","target":null,"label":null,"description":"","cust_type":""},{"name":"withdraws","section":"finances","id":"menu-item-withdraws","title":"\u0418\u0441\u0442\u043e\u0440\u0438\u044f \u0441\u0447\u0451\u0442\u0430","link":"\/withdraws\/list","num":"","freehosting":"","target":null,"label":null,"description":"","cust_type":""}]}
+        </script>
+        <script type="application/json" id="initial-page-info">
+          {"login":"a0466988","client_type":"customer","loginBda":null,"help_url":"https:\/\/help.sprinthost.ru","cust_type":"f","isSlave":"n","isAdvanced":"n","can_change_services":true,"current_avatar":"\/ajax\/customer\/avatars\/get","platform_version":"4.0","dealer":null,"pin":null,"user_from_dealer":"n","is_suspend":"y","suspend_type":"OVERQUOTA","resources_blocked":"n","cp_actions_blocked":"n","usergroup":"customers","seller_awstats":"y","seller_mailservice":"y","nemails":"unlimited","package":"vostok2_202309","package_type":"shared","package_descr":"\u0412\u043e\u0441\u0442\u043e\u043a-2","domains_only":"n","freehosting":"n","is_package_changeable":true,"customer_settings":{"login":"a0466988","pwd":null,"pwd_ssl":"2odMnDMfEqMYGWwpWR5jfg==","pwd_mysql":"*9CE4AA638D2753E6385B789B3BD274D24C9881CD","pwd_ftp":"$1$qLsjFewM$IWoKf2TgFZU8dc7KKqFAf.","max_vdomains":"0","jur6month":"n","special_domain_price":null,"special_domain_price_mandatory":"n","genact_type":"prepaid","wm_rate":"0.4000","low_wm_rate":"0.7000","low_wm_rate_type":"DEBT","edms":"n","edms_providers_id":"1","send_mail_docs":"y","broken_mail_address":"n","broken_email_address":"n","invoice_to_pay_ts":null,"invoice_to_pay_serialized":null,"prevent_auto_regdom":"n","vip_customer":"n","vip_customer_descr":null,"service_customer":"n","service_customer_descr":null,"check_login_ip":"n","check_balance":"y","payment_dest":null,"collapse_services_in_faktura_to":null,"sites":null,"quota":null,"quota_temporary":null,"max_files":null,"max_files_temporary":null,"prefork_max_clients":null,"login_class":null,"cgroup":null,"boxes_max_count":null,"box_local_network":null,"box_extra_services":null,"can_call":"y","transfer_ticket":null,"transfer_ts":null,"api_key":null,"bot_api_key":null,"reg_category_ts":"2020-09-01 23:03:44","reg_category":"none","moderated":"y","hs_every":"month","hs_info":"1","hs_hour":"6","old_pin":null,"block_custom_services":"n","block_change_package":"n","block_shop":"n","is_frozen":"n","overload_change_package":"n","deployme_token":null,"onboarded":true,"edms_interval":"3","block_third_party_nses":"y"},"server_available":"y","has_login":true,"rub_sign":"<span class=\"rub-sign\">a<\/span>","is_production":true,"memcache":0,"ddos":0,"redis":0,"nemails_count":0,"isFederal":false,"hasEdo":false,"freeSiteBlocked":false,"reqLimit":1000,"is_frozen":"n","block_custom_services":false,"promo_banner_info":{"promo_banner_info":{"premiumPromoShow":false}},"isTester":false,"usage":{"login":"a0466988","id":"389789","mysql":"1","mysql_kbytes":null,"ftp":"1","sites_usage":null,"nemails":"2","nemails_aliases":"0","sites":null,"domainptr":0,"nsubdomains":0,"vdomains":1,"quota":19786.860000000001,"files_num":46132,"files_kbytes":null,"ts_updated":"2023-09-15 09:24:20"},"box_count":0,"quota":"15000","account_access_list":[],"access_routes":[{"docsList":false},{"sitesList":false},{"fileManager":true},{"regDom":false},{"backupsManager":false},{"pma":true},{"packageChange":true},{"customServices":false},{"generalSettings":true},{"generalSettingsMenu":true},{"verification":true},{"accountInfoPerson":true},{"accountInfoIp":true},{"accountInfoOrg":true},{"loadIndex":true},{"loadCpu":true},{"loadRam":true},{"loadReq":true},{"payAdd":true}],"line":"vostok","created_at":"2020-09-01 23:03:44","statm":"2046.38","per_month":690,"paid_days":91,"bonus_statm":"1416.0606","real_statm":630.32680000000005,"name":"\u041a\u0438\u043c\u043b\u0430\u0447 \u0410\u043d\u043d\u0430 \u0418\u0433\u043e\u0440\u0435\u0432\u043d\u0430","title":"\u041e\u0448\u0438\u0431\u043a\u0430","breadcrumbs":[{"title":"\u041e\u0448\u0438\u0431\u043a\u0430 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0440\u043e\u0441\u0430"}],"paid_today":false,"payments_count":7,"accountErrorsData":{"cancelData":{"isCurrentSuspend":"n","deleteDate":"2023-12-11 16:20:05"},"ddosData":{"sites":[],"price":290,"isPremium":"n","isCurrentSuspend":"n"},"debtData":{"isSprintbox":"n","isCurrentSuspend":"n"},"boxData":{"daysLeft":7,"isCurrentSuspend":"n"},"hackedData":{"email":"mental_irascibility@mail.ru","isCurrentSuspend":"n"},"hackscanData":{"isCurrentSuspend":"n"},"inactiveData":{"isCurrentSuspend":"n","deleteDate":"2023-12-11 16:20:05"},"mailData":{"isCurrentSuspend":"n"},"overloadData":{"isCurrentSuspend":"n","nextPackage":"plus100"},"overquotaData":{"isCurrentSuspend":"y","nextPackage":"plus100"},"testoverData":{"isPremium":"n","isCurrentSuspend":"n"},"violationData":{"isCurrentSuspend":"n"},"filesLimit":{"isFree":"n","isCurrentSuspend":"n"},"freeRequestsLimit":{"isCurrentSuspend":"n","domain":null},"frozen":{"isCurrentSuspend":"n"},"sitesBlock":{"sitesCount":0,"isCurrentSuspend":"n","siteName":null},"wrongAddress":{"isCurrentSuspend":"n"},"serverStatus":{"serverName":"1","isCurrentSuspend":"n"}}}
+        </script>
+                        
+        
+        <div id="cp-wrapper" class="cp-wrapper">            <header id="vue-header"></header>
+                            <aside id="v-side-bar-tight"></aside>
+            
+            <main id="main" class="main--wide">                <div id="bread-crumbs"></div>
+                <div id="page-content">
+                        <div id="test-error"
+        code="0"
+        params="[]"
+        error="500"
+        module="Customer">
+    </div>
+    <div id="error-block">
+        <page-error-app
+                code="0"
+                params="[]"
+                error="500"
+                module="Customer"
+        >
+        </page-error-app>
+    </div>
+    <script src="/js/vuedist/js/PageError.js?1694689968408"></script>
+                </div>
+                <div id="overlay-alert"></div>
+                            </main>
+            
+
+    <script type='text/javascript'>
+                    (function() {
+                var widget_id = 'lHRmIDgMFh';
+                var d         = document;
+                var w         = window;
+
+                function l()
+                {
+                    var s   = document.createElement('script');
+                    s.type  = 'text/javascript';
+                    s.async = true;
+                    s.src   = '//code.jivosite.com/script/widget/' + widget_id;
+                    var ss  = document.getElementsByTagName('script')[0];
+                    ss.parentNode.insertBefore(s, ss);
+                }
+
+                if (d.readyState == 'complete') {l();} else {
+                    if (w.attachEvent) {w.attachEvent('onload', l);} else {w.addEventListener('load', l, false);}
+                }
+            })();
+        
+            /*
+                Коллбек-функция, вызывается сразу после того, как
+                JivoSite окончательно загрузился
+            */
+            window.jivo_onLoadCallback = function (){
+                $('#jivo_btn').css('display', '');
+
+                // Создаем элемент DIV для ярлыка
+                window.jivo_cstm_widget = document.createElement('div');
+                jivo_cstm_widget.setAttribute('id', 'jivo_custom_widget');
+                document.body.appendChild(jivo_cstm_widget);
+
+                // Добавляем обработчик клика по ярлыку - чтобы при клике разворачивалось окно
+                jivo_cstm_widget.onclick = function(){
+                    jivo_api.open();
+                };
+
+                // Изменяем CSS класс, если есть операторы в онлайне
+                if (jivo_config.chat_mode == "online"){
+                    jivo_cstm_widget.setAttribute("class", "jivo_online");
+                }
+
+                // Теперь можно показать ярлык пользователю
+                window.jivo_cstm_widget.style.display='block';
+
+                jivo_api.setUserToken('PNWOnjsqTjXiRNhsnuSK3qyGSqAEaPOoRQ+Y3R/63uC18hdZmPeGHSGgNKd1z90xDW1NB3djZqryuHVq3NL1V/Var6UH2RCka1nRD6DKM4KVOOaXQiIwes5QDn7Z0m2Xx7NubF9iLWkFSwMA6y8tvo4Trb/Q0jxO6xhFzZ9K64BStqAVw0XddY+QWBqV5nrUuBaLujuzNWRhSb8+JR3KFLE6Bs0p51SrmwUiTM52xue4r4/E/c+R0IRH0xvSoI0FnyigV8/x2cTeoAqirU6wz+aPNuOtHwScLKmAzEEcyl4BcUa0Qqs0uBZFrEWu/rIjP3Zt2WSm1JWokFSvAlk/6w==');
+            };
+
+            /*
+                Коллбек-функции jivo_onOpen и jivo_onClose вызываеются всегда,
+                когда окно чата JivoSite разворачивается или сворвачивается
+                пользователем, либо по правилу активного приглашения.
+            */
+            function jivo_onOpen(){
+                // Если чат развернут - скрываем ярлык
+                if (jivo_cstm_widget)
+                    jivo_cstm_widget.style.display = 'none';
+
+            }
+            function jivo_onClose(){
+                // Если чат свернут - показываем ярлык
+                if (jivo_cstm_widget)
+                    jivo_cstm_widget.style.display = 'block';
+            }
+            </script>
+
+<div id="shackle-menu"></div>
+<script src="https://yastatic.net/s3/passport-sdk/autofill/v1/sdk-suggest-with-polyfills-latest.js"></script>
+<script src="/js/vuedist/js/shackleMenu.js?1694689968408"></script>
+<!--Tippy.js-->
+<script src="/js/vendor/popper.min.js"></script>
+<script src="/js/vendor/tippy-bundle.umd.js"></script>
+
+<script type="text/javascript" >
+    document.addEventListener('DOMContentLoaded', function (){
+        let titles = document.querySelectorAll('[data-tippy-content]');
+        titles.forEach((item) => {
+            let itemToolTip = item.getAttribute('data-tippy-content');
+            tippy(item, {
+                content    : itemToolTip,
+                duration   : 0,
+                arrow      : false,
+                animation  : 'fade',
+                inertia    : true,
+                offset     : [0, 8],
+                delay      : [700, 20],
+                theme      : 'custom',
+                zIndex: 999999,
+            });
+        });
+    });
+</script>
+
+
+            <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m, e, t, r, i, k, a) {
+                m[i]   = m[i] || function() {(m[i].a = m[i].a || []).push(arguments)};
+                m[i].l = 1 * new Date();
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(19760185, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true,
+                params: {
+                    "ip": "92.253.212.161",
+                    "login": "a0466988",
+                    "type": "common",
+                    "package": "vostok2_202309"
+                }
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/19760185" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->        
+    
+<script>
+    var yandexMetrika = {};
+
+    yandexMetrika.getReachGoals = function (typeGoal){
+      if (typeof (ym) !== 'undefined') {
+        ym(19760185,'reachGoal', typeGoal)
+      }
+    }
+
+    window.yandexMetrika = yandexMetrika;
+
+</script>
+        </div>
+        <div id="v-side-bar-overlay"></div>
+
+        <!--Overlays-->
+        <div id="overlay-modal"></div>
+        <div id="slide-overlay"></div>
+        <div id="task-process" class="hidden-simple" data-task="[]"></div>
+        <script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/metisMenu/dist/metisMenu.min.js"></script>
+<script type="text/javascript" src="/lib/slimScroll/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="/lib/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="/lib/toastr/toastr.min.js"></script>
+
+
+        <div
+    id="alert_modal"
+    class="modal"
+    tabindex="-1"
+    role="dialog"
+    aria-hidden="true"
+>
+    <div class="modal-dialog modal-xs">
+        <div class="modal-content">
+
+                            <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+                    <h4 class="modal-title">Сообщение</h4>
+                </div>
+            
+            <div class="modal-body"></div>
+
+                    </div>
+    </div>
+</div>            <script>
+        dr(function() {
+            Validator.setErrors('{"defaultMessage":"Некорректное значение","email":"Некорректный адрес электронной почты","url":"Некорректный URL адрес","number":"Значение не является числом","integer":"Значение не является целым числом","digits":"Введите только цифры","alphanum":"Введите буквенно-цифровое значение","notblank":"Это поле должно быть заполнено","required":"Обязательное поле","pattern":"Это значение некорректно","min":"Значение должно быть не менее чем %s","max":"Значение должно быть не более чем %s","range":"Это значение должно быть от %s до %s","minlength":"Введите не менее %s символов","maxlength":"Введите не более %s символов","length":"Введите от %s до %s символов","mincheck":"Выберите не менее %s значений","maxcheck":"Выберите не более %s значений","check":"Выберите от %s до %s значений","equalto":"Значения должны совпадать","full-name":"Некорректное ФИО.","db-name":"Некорректное значение. Допускаются латинские буквы, цифры, нижнее подчеркивание и тире.","db-user":"Некорректное значение. Допускаются латинские буквы, цифры, нижнее подчеркивание и тире.","date":"Некорректная дата","date-birth":"Некорректная дата рождения","password":"Значение пароля содержит недопустимые символы. Допускаются латинские буквы, цифры и спецсимволы ! $ % @ #","phone":"Некорректный номер телефона. Допускаются только цифры и первый знак плюса.","ipv4":"Некорректный IP-адрес","ipv6":"Некорректный IP-адрес"}');
+        });
+    </script>
+        
+                
+                <div style="display: none" id="checking-pay-result-preloader" class="checkout-result checking-pay-result-preloader">
+    <div class="checkout-result__content">
+        <div class="checkout-result-loader">
+            <p class="checkout-result-loader__title">Проверяем платеж</p>
+            <p class="checkout-result-loader__text">Нужно немного подождать...</p>
+        </div>
+    </div>
+</div>
+
+        <script type="text/javascript" src="/js/vuedist/js/Freeze.js?1694689968408"></script>
+    </body>
+</html>
