@@ -1,0 +1,17 @@
+[input-def]
+0=*
+
+[input2]
+0=/home/a0466988/domains
+1=/home/a0466988/domains/dada-base.com
+
+[cmdline]
+0=
+
+[Dir Hist New Right Panel]
+0=/home/a0466988/domains
+1=/home/a0466988/domains/dada-base.com
+
+[Dir Hist New Left Panel]
+0=/home/a0466988/domains/dada-base.com/public_html_pre
+1=/home/a0466988/domains/dada-base.com
